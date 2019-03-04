@@ -1,0 +1,68 @@
+INSTALL
+Created Mon Mar  4 09:34:00 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Installation of Hiri on Debian 9.8 amd64 virtualbox vm.
+
+
+Linux: Installation instructions
+
+Installing snap package
+=======================
+If your system supports snap, the easiest way to install Hiri is:
+
+  sudo snap install hiri
+
+Start Hiri by typing hiri on the terminal or using the desktop launcher.
+
+
+Step-by-step instructions for installing Hiri snap
+  https://support.hiri.com/hc/en-us/articles/115003920665-Installing-Hiri-snap-on-Linux
+
+
+Installing from tarball
+Download the tarball and extract it somewhere in your system.
+Open a terminal and navigate to the folder where you unpacked Hiri.
+Start Hiri with:
+
+  ./hiri.sh
+
+To start Hiri more easily, you can also create a desktop entry
+from Hiri by going to: Settings → General → Create desktop entry.
+From then on, Hiri will appear in your launcher.
+
+Step-by-step installation instructions for installing Hiri from tarball
+  https://support.hiri.com/hc/en-us/articles/115003791229-Linux-installation-instructions
+
+
+Supported mail servers
+======================
+Hiri works with Exchange servers (on-premise, Office365,
+Outlook.com, Live, Hotmail). All versions from Exchange 2010 SP1
+and onwards are supported.  Hiri doesn't work with other email
+providers such as Gmail, Yahoo, etc.
+
+What's new?
+The complete list of changes for the latest version can be found here.
+
+License
+You can trial a full version of Hiri for 7 days.  After the trial
+period is up, you'll have to purchase Hiri to continue using it.
+See pricing page[1] for more info on purchasing.
+
+The full license text can be found here.[2]
+
+
+
+Links
+=====
+[1] Pricing page
+https://www.hiri.com/pricing/
+
+[2] full license text can be found here.
+https://feedback.hiri.com/downloads/license.txt
+
+Thank you for downloading Hiri!
+Linux: Installation instructions
+https://www.hiri.com/download_hiri/linux/
