@@ -1,0 +1,6 @@
+hiri.txt
+Created Mon Mar  4 09:20:05 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Hiri is an email client for Microsoft Exchange
