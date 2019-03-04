@@ -127,15 +127,127 @@ root@debian:~# snap install hiri
 hiri 1.4.0.5 from 'hiri' installed
 # 
 
+3. Found hiri installed at:
+/snap/bin/hiri/
+  bin/
+    hiri -> /usr/bin/snap
+  core/
+    6405/
+      ...
+    current -> 6405
+  hiri/
+    56/
+    current -> 56
+  README
+    /snap/bin                   - Symlinks to snap applications.
+    /snap/<snapname>/<revision> - Mountpoint for snap content.
+    /snap/<snapname>/current    - Symlink to current revision, if enabled
 
-# snap help refresh
-Usage:
-  snap refresh [refresh-OPTIONS] [<snap>...]
+4. Create /usr/local/bin/hiri symlink:
+$ cd /usr/local/bin/
+# ln -s /snap/bin/hiri
 
-The refresh command updates the specified snaps, or all snaps in the system if
-none are specified.
-...
-#
+$ type hiri
+hiri is /usr/local/bin/hiri
+$
+
+Looks good
+
+5. Intial hiri configuration
+
+$ hiri
+
+Launches Hiri window with:
+  Let's add an account
+  Enter your email address
+
+    someone@your provider.com
+    myemailaddress@gmail.com          <=== Value added
+
+    x Yes, you can send me an email once per month
+      See out thought on privay here.
+      --https://support.hiri.com/hc/en-us/articles/115000846814-Privacy
+
+    click Next, step
+
+  Sorry, we don't suppor Gmail.
+  Hiri only works with an Exchange/Office 365 email address.
+
+  Very good, updated to:
+
+    someone@your provider.com
+    myusername@alaska.gov          <=== Value added
+
+    x Yes, you can send me an email once per month
+      See out thought on privay here.
+      --https://support.hiri.com/hc/en-us/articles/115000846814-Privacy
+
+    click Next Step
+
+   Not Office 365?
+
+   Got Authentication Required popup:
+
+   Authentication Required
+   Enter username and password for "" at httpd://federation.alaska.gov
+   Username: SOA\myusername
+   Password: ***
+
+   Cancel Log In
+   click Log In
+
+   Above login did not work.
+
+   At What is your email provider? popup:
+   Please choose...
+     Exchange
+     Outlook/Hotmail/Live/MSN   <=== click 
+     Ofice 365
+  
+   click Outlook/Hotmail/Live/MSN
+
+6. At Outlook/Hotmail/Live/MSN login page:
+   myusername@alaska.gov
+   password: ***
+
+   click Next step
+
+   Autodiscover failed to access settings.
+   Check your password again, or go back to Exchange form and turn off
+   autodiscover.
+
+7. Back up to What is your email provider? page.
+   Exchange                   <=== click 
+   Outlook/Hotmail/Live/MSN
+   Office 365
+
+   click Exchange
+
+8. At Exchange Login
+   username: myusername@alaska.gov
+   password: ***
+   username: myusername or SOA\myusername
+   x Autodiscover server settings  <=== Unchecked yields:
+     Server:          mail.alaska.gov
+                      Server e.h. server.domain.com
+     Authentication:  x NTML             Basic
+     Server version:  x Exchange 2010    Exchange 2013
+     Protocol:        x HTTPS            HTTP
+                      x verify SSL certificate
+
+     Trouble logging on ? Click here
+
+     Autodiscover failed to access settings.
+     Check your password again, or go back to Exchange form
+     and turn off autodiscover.
+
+     We couldn't authenticate you becuase of connection problems.
+     Please check your internet connectiona and try again.
+
+   click Next Step
+
+Unable to get the Exchange login to work via Hiri.
+No doubt need to get the syntax correct.
 
 
 Installing snap package
