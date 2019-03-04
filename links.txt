@@ -1,0 +1,13 @@
+links.txt
+Created Mon Mar  4 09:21:43 AKST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Hiri related links
+
+
+Links
+=====
+Hiri is Your Best Bet for Using Microsoft Exchange on Linux
+Last updated February 28, 2019 By Phillip Prado 31 Comments
+https://itsfoss.com/hiri-email-review/
