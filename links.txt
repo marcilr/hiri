@@ -23,6 +23,9 @@ https://www.hiri.com/
 Blog
 https://blog.hiri.com/
 
+Does Hiri support multiple accounts?
+https://support.hiri.com/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCGE3pMYaADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCN6plcYaADoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJJL2hjL2VuLXVzL2FydGljbGVzLzExNTAwMTgwMDU0NS1Eb2VzLUhpcmktc3VwcG9ydC1tdWx0aXBsZS1hY2NvdW50cy0GOwhUOglyYW5raQY%3D--9fe1982979ee38a40973fba52971582f79d24ed3
+
 Downloads
 Download Windows
 https://www.hiri.com/download_hiri/win/
@@ -34,6 +37,12 @@ https://www.hiri.com/download_hiri/linux/
 Hiri is Your Best Bet for Using Microsoft Exchange on Linux
 Last updated February 28, 2019 By Phillip Prado 31 Comments
 https://itsfoss.com/hiri-email-review/
+
+Installing Hiri snap on Linux
+https://support.hiri.com/hc/en-us/articles/115003920665-Installing-Hiri-snap-on-Linux
+
+Linux installation instructions
+https://support.hiri.com/hc/en-us/articles/115003791229-Linux-installation-instructions
 
 Product
 https://www.hiri.com/product/
