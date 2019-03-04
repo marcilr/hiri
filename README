@@ -11,5 +11,8 @@ docs/
 hiri.txt
   Hiri is an email client for Microsoft Exchange
 
+INSTALL
+  Installation of Hiri on Debian 9.8 amd64 virtualbox vm
+
 links.txt
   Hiri related links
